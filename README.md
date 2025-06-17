@@ -1,5 +1,8 @@
 # 🔮 Next Word Prediction using LSTM
 
+![Next Word Prediction using LSTM](next_word_prediction.jpg)  
+
+
 This project demonstrates a **Recurrent Neural Network (RNN)** based **Next Word Prediction** system using an **LSTM model** trained on the **WikiText-2 dataset**. It uses TensorFlow/Keras for model training and **Streamlit** for easy user interaction through a web interface.
 
 ---
@@ -20,11 +23,7 @@ next_word_prediction_rnn/
 │ └── prediction.py # Prediction logic for next word
 │
 └── README.md # This file
-
-yaml
-Copy
-Edit
-
+---
 ---
 
 ## 📚 Dataset Used
@@ -70,24 +69,20 @@ To build a language model that:
 ## 📦 Installation & Setup
 
 ### 1. Clone the Repository
-```bash
+---
 git clone https://github.com/yourusername/next_word_prediction_rnn.git
 cd next_word_prediction_rnn
+
+
 2. Create a Virtual Environment
-bash
-Copy
-Edit
 python -m venv nwp_env
 nwp_env\Scripts\activate   # Windows
+
 3. Install Dependencies
-bash
-Copy
-Edit
 pip install -r requirements.txt
+
 📂 requirements.txt
-makefile
-Copy
-Edit
+
 tensorflow==2.15.0
 streamlit==1.35.0
 datasets==2.18.0
@@ -95,10 +90,9 @@ numpy
 ⚠️ Make sure your system uses Python 3.10 to avoid TensorFlow installation issues.
 
 🚀 How to Train the Model
-bash
-Copy
-Edit
+
 python train_model.py
+
 This will:
 
 Load and preprocess the WikiText-2 dataset.
@@ -108,9 +102,6 @@ Train the model for 10 epochs (you can change this).
 Save the trained model to model/lstm_next_word_model.h5.
 
 💬 How to Run the App
-bash
-Copy
-Edit
 streamlit run app.py
 Visit: http://localhost:8501 in your browser.
 
@@ -159,17 +150,7 @@ Include dropout and batch normalization.
 
 Pretrain embeddings (like GloVe or Word2Vec).
 
-👨‍💻 Contributors
-You — Developer and Trainer
-
-Assisted by: ChatGPT - OpenAI
-
-📜 License
-MIT License – feel free to use and modify.
-
 🙌 Acknowledgements
 Hugging Face Datasets
-
 TensorFlow
-
 Streamlit
