@@ -68,11 +68,11 @@ python -m venv env
 source env/bin/activate  # or env\Scripts\activate on Windows
 pip install -r requirements.txt
 
----
-
-### 📬 About
+________________________________________________________________________________________________________________________________________________________________________________________________________
+📬 About
 This repository was developed as part of the GUVI Final Project Submission for demonstrating end-to-end ML/NLP/EDA workflows and real-world deployment strategies.
 
----
-### 📌 Note
+📌 Note
 Make sure to switch to the appropriate branch (pneumonia-detection, next-word-prediction, or eda-superstore-analysis) to explore the individual project code and documentation.
+
+
