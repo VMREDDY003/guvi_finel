@@ -79,9 +79,9 @@ pip install -r requirements.txt
 
 ### 📂 requirements.txt
 
-tensorflow==2.15.0 
-streamlit==1.35.0 
-datasets==2.18.0 
+tensorflow==2.15.0  
+streamlit==1.35.0  
+datasets==2.18.0  
 numpy 
 ⚠️ Make sure your system uses Python 3.10 to avoid TensorFlow installation issues.
 
