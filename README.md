@@ -9,20 +9,7 @@ This project demonstrates a **Recurrent Neural Network (RNN)** based **Next Word
 
 ## 📌 Project Structure
 
-next_word_prediction_rnn/
-│
-├── app.py # Streamlit app for interactive prediction
-├── train_model.py # Model training script
-├── requirements.txt # All dependencies
-│
-├── model/
-│ └── lstm_next_word_model.h5 # Saved trained model
-│
-├── utils/
-│ ├── preprocessing.py # Data loading, cleaning, and tokenizing
-│ └── prediction.py # Prediction logic for next word
-│
-└── README.md # This file
+<pre> next_word_prediction_rnn/ │ ├── app.py # Streamlit web app for prediction ├── train_model.py # Model training script ├── requirements.txt # List of dependencies │ ├── model/ │ └── lstm_next_word_model.h5 # Saved trained model │ ├── utils/ │ ├── preprocessing.py # Data loading & preprocessing │ └── prediction.py # Next word prediction logic │ └── README.md # Project documentation </pre>
 ---
 ---
 
@@ -151,6 +138,6 @@ Include dropout and batch normalization.
 Pretrain embeddings (like GloVe or Word2Vec).
 
 ### 🙌 Acknowledgements
-Hugging Face Datasets
-TensorFlow
-Streamlit
+- Hugging Face Datasets 
+- TensorFlow 
+- Streamlit 
