@@ -9,7 +9,16 @@ This project demonstrates a **Recurrent Neural Network (RNN)** based **Next Word
 
 ## 📌 Project Structure
 
-<pre> next_word_prediction_rnn/ │ ├── app.py # Streamlit web app for prediction ├── train_model.py # Model training script ├── requirements.txt # List of dependencies │ ├── model/ │ └── lstm_next_word_model.h5 # Saved trained model │ ├── utils/ │ ├── preprocessing.py # Data loading & preprocessing │ └── prediction.py # Next word prediction logic │ └── README.md # Project documentation </pre>
+<pre> next_word_prediction_rnn/ 
+  │ ├── app.py # Streamlit web app for prediction 
+  ├── train_model.py # Model training script 
+  ├── requirements.txt # List of dependencies 
+  │ ├── model/ 
+  │ └── lstm_next_word_model.h5 # Saved trained model 
+  │ ├── utils/ 
+  │ ├── preprocessing.py # Data loading & preprocessing 
+  │ └── prediction.py # Next word prediction logic 
+  │ └── README.md # Project documentation </pre>
 ---
 ---
 
@@ -70,10 +79,10 @@ pip install -r requirements.txt
 
 ### 📂 requirements.txt
 
-tensorflow==2.15.0
-streamlit==1.35.0
-datasets==2.18.0
-numpy
+tensorflow==2.15.0 
+streamlit==1.35.0 
+datasets==2.18.0 
+numpy 
 ⚠️ Make sure your system uses Python 3.10 to avoid TensorFlow installation issues.
 
 ### 🚀 How to Train the Model
