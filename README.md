@@ -1,5 +1,5 @@
 # Exploratory Data Analysis on Global Superstore Dataset
-
+![Exploratory Data Analysis on Global Superstore Dataset](eda.jpg)
 ## 📌 Problem Statement
 
 The goal of this project is to develop learners' skills in understanding retail datasets and drawing actionable business insights by performing EDA on the Global Superstore dataset.
