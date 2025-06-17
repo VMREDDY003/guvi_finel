@@ -74,14 +74,14 @@ git clone https://github.com/yourusername/next_word_prediction_rnn.git
 cd next_word_prediction_rnn
 
 
-2. Create a Virtual Environment
+### 2. Create a Virtual Environment
 python -m venv nwp_env
 nwp_env\Scripts\activate   # Windows
 
-3. Install Dependencies
+### 3. Install Dependencies
 pip install -r requirements.txt
 
-📂 requirements.txt
+### 📂 requirements.txt
 
 tensorflow==2.15.0
 streamlit==1.35.0
@@ -89,7 +89,7 @@ datasets==2.18.0
 numpy
 ⚠️ Make sure your system uses Python 3.10 to avoid TensorFlow installation issues.
 
-🚀 How to Train the Model
+### 🚀 How to Train the Model
 
 python train_model.py
 
@@ -101,29 +101,29 @@ Train the model for 10 epochs (you can change this).
 
 Save the trained model to model/lstm_next_word_model.h5.
 
-💬 How to Run the App
+### 💬 How to Run the App
 streamlit run app.py
 Visit: http://localhost:8501 in your browser.
 
-Example:
+### Example:
 Input: deep learning models are
 Output: deep learning models are **trained**
 
-🧪 Example Predictions
+### 🧪 Example Predictions
 Input Text	Predicted Next Word
 machine learning is a	field
 natural language processing	tasks
 artificial intelligence and	machine
 deep learning can	help
 
-⚙️ Model Details
+### ⚙️ Model Details
 Embedding Layer: Transforms word indices into dense vectors.
 
 LSTM Layer: Learns sequential context.
 
 Dense Layer (Softmax): Outputs probability for each word in vocab.
 
-🧠 Training Settings
+### 🧠 Training Settings
 Parameter	Value
 Sequence Length	5
 Vocabulary Size	20,000
@@ -132,14 +132,14 @@ Epochs	10
 Loss	Sparse Categorical Crossentropy
 Optimizer	Adam
 
-⚡ Limitations
+### ⚡ Limitations
 On low-RAM systems, larger vocab sizes (>20k) may crash training.
 
 <OOV> may still appear if words are rare or improperly tokenized.
 
 Limited prediction diversity (only top-1 prediction shown).
 
-📈 To Improve Accuracy
+### 📈 To Improve Accuracy
 Increase sequence length (e.g., 10 instead of 5).
 
 Train for more epochs (15–20).
@@ -150,7 +150,7 @@ Include dropout and batch normalization.
 
 Pretrain embeddings (like GloVe or Word2Vec).
 
-🙌 Acknowledgements
+### 🙌 Acknowledgements
 Hugging Face Datasets
 TensorFlow
 Streamlit
